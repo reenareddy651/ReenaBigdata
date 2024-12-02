@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>e92b67f9af9647d6b2f75c30d11baef7</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="RzuM30o0zWDo" data-outputId="1098a991-b2e5-42c0-bd58-648f35122ab1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install cassandra<span class="op">-</span>driver</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> cassandra.cluster <span class="im">import</span> Cluster</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> cassandra.auth <span class="im">import</span> PlainTextAuthProvider</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>cloud_config<span class="op">=</span> {</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;secure_connect_bundle&#39;</span>: <span class="st">&#39;/content/secure-connect-reena-mula.zip&#39;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;/content/Reena Mula-token.json&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    secrets <span class="op">=</span> json.load(f)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>CLIENT_ID <span class="op">=</span> secrets[<span class="st">&quot;clientId&quot;</span>]</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>CLIENT_SECRET <span class="op">=</span> secrets[<span class="st">&quot;secret&quot;</span>]</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>auth_provider <span class="op">=</span> PlainTextAuthProvider(CLIENT_ID, CLIENT_SECRET)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>cluster <span class="op">=</span> Cluster(cloud<span class="op">=</span>cloud_config, auth_provider<span class="op">=</span>auth_provider)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>session <span class="op">=</span> cluster.<span class="ex">connect</span>()</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>row <span class="op">=</span> session.execute(<span class="st">&quot;select release_version from system.local&quot;</span>).one()</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> row:</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(row[<span class="dv">0</span>])</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;connected to cassandra&quot;</span>)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;An error occurred.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: cassandra-driver in /usr/local/lib/python3.10/dist-packages (3.29.2)
+Requirement already satisfied: geomet&lt;0.3,&gt;=0.1 in /usr/local/lib/python3.10/dist-packages (from cassandra-driver) (0.2.1.post1)
+Requirement already satisfied: click in /usr/local/lib/python3.10/dist-packages (from geomet&lt;0.3,&gt;=0.1-&gt;cassandra-driver) (8.1.7)
+Requirement already satisfied: six in /usr/local/lib/python3.10/dist-packages (from geomet&lt;0.3,&gt;=0.1-&gt;cassandra-driver) (1.16.0)
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 233c70b0-27a1-4816-8846-6f3d5ca6a576-us-east1.db.astra.datastax.com:29042:190dafab-6970-3a67-a21c-1226360de7dc. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 233c70b0-27a1-4816-8846-6f3d5ca6a576-us-east1.db.astra.datastax.com:29042:190dafab-6970-3a67-a21c-1226360de7dc. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 233c70b0-27a1-4816-8846-6f3d5ca6a576-us-east1.db.astra.datastax.com:29042:190dafab-6970-3a67-a21c-1226360de7dc. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>4.0.0.6816
+connected to cassandra
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="V4LhyQTe0sMO" data-outputId="386eb920-4944-4217-beaa-6615b7d88366">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>keyspace <span class="op">=</span> <span class="st">&quot;medallion_architecture&quot;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>session.set_keyspace(keyspace)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;keyspace is set to medallion architecture&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>keyspace is set to medallion architecture
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9" id="UDv-js7P54Qi">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> drop_table(session, keyspace, table_name):</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    query <span class="op">=</span> <span class="st">&quot;SELECT table_name FROM system_schema.tables WHERE keyspace_name = </span><span class="sc">%s</span><span class="st"> AND table_name = </span><span class="sc">%s</span><span class="st">&quot;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> session.execute(query, (keyspace, table_name))</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> result.current_rows:</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Table &#39;</span><span class="sc">{</span>table_name<span class="sc">}</span><span class="ss">&#39; already exists in keyspace &#39;</span><span class="sc">{</span>keyspace<span class="sc">}</span><span class="ss">&#39;. Dropping it...&quot;</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>        drop_query <span class="op">=</span> <span class="ss">f&quot;DROP TABLE </span><span class="sc">{</span>table_name<span class="sc">}</span><span class="ss">&quot;</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>        session.execute(drop_query)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Table &#39;</span><span class="sc">{</span>table_name<span class="sc">}</span><span class="ss">&#39; dropped successfully.&quot;</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Table &#39;</span><span class="sc">{</span>table_name<span class="sc">}</span><span class="ss">&#39; does not exist. Ready to create a new table.&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="13"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="M1V8ZCk_6crX" data-outputId="7f3485bd-ad11-417e-b47a-32a15a91778a">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>drop_table(session,keyspace,<span class="st">&quot;bronze_sales_data&quot;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>session.execute(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="st">    CREATE TABLE IF NOT EXISTS bronze_sales_data (</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="st">        region TEXT,</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="st">        country TEXT,</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="st">        item_type TEXT,</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="st">        sales_channel TEXT,</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="st">        order_priority TEXT,</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="st">        order_date TEXT,  -- Use TEXT for date; adjust as needed</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="st">        order_id TEXT PRIMARY KEY,  -- Unique order ID</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="st">        ship_date TEXT,</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="st">        units_sold INT,</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="st">        unit_price FLOAT,</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a><span class="st">        unit_cost FLOAT,</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="st">        total_revenue FLOAT,</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="st">        total_cost FLOAT,</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a><span class="st">        total_profit FLOAT</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="st">    )</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span>)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Connected to Astra DB and Bronze table created successfully!&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Table &#39;bronze_sales_data&#39; already exists in keyspace &#39;medallion_architecture&#39;. Dropping it...
+Table &#39;bronze_sales_data&#39; dropped successfully.
+Connected to Astra DB and Bronze table created successfully!
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="15"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="_juKZu5a6z47" data-outputId="f0b3f77f-df3f-40cf-c5da-721339e17631">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> csv</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>csv_file <span class="op">=</span> <span class="st">&quot;/content/sales_100.csv&quot;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(csv_file, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    reader <span class="op">=</span> csv.DictReader(<span class="bu">file</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> row <span class="kw">in</span> reader:</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>        session.execute(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="st">            INSERT INTO bronze_sales_data (</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="st">                region, country, item_type, sales_channel,</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="st">                order_priority, order_date, order_id, ship_date,</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="st">                units_sold, unit_price, unit_cost,</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="st">                total_revenue, total_cost, total_profit</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="st">            )</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="st">            VALUES (</span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">)</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="st">        &quot;&quot;&quot;</span>, (</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>            row[<span class="st">&#39;Region&#39;</span>], row[<span class="st">&#39;Country&#39;</span>], row[<span class="st">&#39;Item Type&#39;</span>], row[<span class="st">&#39;Sales Channel&#39;</span>],</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>            row[<span class="st">&#39;Order Priority&#39;</span>], row[<span class="st">&#39;Order Date&#39;</span>], row[<span class="st">&#39;Order ID&#39;</span>], row[<span class="st">&#39;Ship Date&#39;</span>],</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>            <span class="bu">int</span>(row[<span class="st">&#39;UnitsSold&#39;</span>]), <span class="bu">float</span>(row[<span class="st">&#39;UnitPrice&#39;</span>]), <span class="bu">float</span>(row[<span class="st">&#39;UnitCost&#39;</span>]),</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>            <span class="bu">float</span>(row[<span class="st">&#39;TotalRevenue&#39;</span>]), <span class="bu">float</span>(row[<span class="st">&#39;TotalCost&#39;</span>]), <span class="bu">float</span>(row[<span class="st">&#39;TotalProfit&#39;</span>])</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>        ))</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Data inserted into Bronze table on Astra DB successfully!&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Data inserted into Bronze table on Astra DB successfully!
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="16"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="3KHDz9pR73fU" data-outputId="f5791ce6-03d4-4e8e-cbe7-697361eac0e1">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> session.execute(<span class="st">&quot;SELECT * FROM bronze_sales_data LIMIT 10&quot;</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> data:</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Row(order_id=&#39;940980136&#39;, country=&#39;New Zealand&#39;, item_type=&#39;Beverages&#39;, order_date=&#39;10/11/2012&#39;, order_priority=&#39;M&#39;, region=&#39;Australia and Oceania&#39;, sales_channel=&#39;Online&#39;, ship_date=&#39;11/4/2012&#39;, total_cost=184000.515625, total_profit=90640.078125, total_revenue=274640.59375, unit_cost=31.790000915527344, unit_price=47.45000076293945, units_sold=5788)
+Row(order_id=&#39;363086831&#39;, country=&#39;Mali&#39;, item_type=&#39;Household&#39;, order_date=&#39;8/19/2010&#39;, order_priority=&#39;M&#39;, region=&#39;Sub-Saharan Africa&#39;, sales_channel=&#39;Offline&#39;, ship_date=&#39;9/7/2010&#39;, total_cost=2169465.25, total_profit=715456.4375, total_revenue=2884921.5, unit_cost=502.5400085449219, unit_price=668.27001953125, units_sold=4317)
+Row(order_id=&#39;176461303&#39;, country=&#39;Singapore&#39;, item_type=&#39;Snacks&#39;, order_date=&#39;1/28/2013&#39;, order_priority=&#39;C&#39;, region=&#39;Asia&#39;, sales_channel=&#39;Online&#39;, ship_date=&#39;2/7/2013&#39;, total_cost=747949.4375, total_profit=423254.625, total_revenue=1171204.125, unit_cost=97.44000244140625, unit_price=152.5800018310547, units_sold=7676)
+Row(order_id=&#39;438011872&#39;, country=&#39;Dominica&#39;, item_type=&#39;Beverages&#39;, order_date=&#39;6/12/2012&#39;, order_priority=&#39;L&#39;, region=&#39;Central America and the Caribbean&#39;, sales_channel=&#39;Online&#39;, ship_date=&#39;7/18/2012&#39;, total_cost=200308.796875, total_profit=98673.65625, total_revenue=298982.4375, unit_cost=31.790000915527344, unit_price=47.45000076293945, units_sold=6301)
+Row(order_id=&#39;135178029&#39;, country=&#39;United Kingdom&#39;, item_type=&#39;Cosmetics&#39;, order_date=&#39;5/1/2015&#39;, order_priority=&#39;L&#39;, region=&#39;Europe&#39;, sales_channel=&#39;Online&#39;, ship_date=&#39;5/16/2015&#39;, total_cost=273336.53125, total_profit=180477.0625, total_revenue=453813.59375, unit_cost=263.3299865722656, unit_price=437.20001220703125, units_sold=1038)
+Row(order_id=&#39;488121116&#39;, country=&#39;The Bahamas&#39;, item_type=&#39;Fruits&#39;, order_date=&#39;6/18/2010&#39;, order_priority=&#39;L&#39;, region=&#39;Central America and the Caribbean&#39;, sales_channel=&#39;Offline&#39;, ship_date=&#39;6/30/2010&#39;, total_cost=32800.80078125, total_profit=11423.400390625, total_revenue=44224.19921875, unit_cost=6.920000076293945, unit_price=9.329999923706055, units_sold=4740)
+Row(order_id=&#39;845056617&#39;, country=&#39;Netherlands&#39;, item_type=&#39;Fruits&#39;, order_date=&#39;11/19/2016&#39;, order_priority=&#39;L&#39;, region=&#39;Europe&#39;, sales_channel=&#39;Online&#39;, ship_date=&#39;11/30/2016&#39;, total_cost=68418.0390625, total_profit=23827.669921875, total_revenue=92245.7109375, unit_cost=6.920000076293945, unit_price=9.329999923706055, units_sold=9887)
+Row(order_id=&#39;667593514&#39;, country=&#39;Morocco&#39;, item_type=&#39;Clothes&#39;, order_date=&#39;9/14/2013&#39;, order_priority=&#39;M&#39;, region=&#39;Middle East and North Africa&#39;, sales_channel=&#39;Online&#39;, ship_date=&#39;10/19/2013&#39;, total_cost=165258.234375, total_profit=338631.84375, total_revenue=503890.09375, unit_cost=35.84000015258789, unit_price=109.27999877929688, units_sold=4611)
+Row(order_id=&#39;425793445&#39;, country=&#39;Seychelles &#39;, item_type=&#39;Beverages&#39;, order_date=&#39;1/18/2013&#39;, order_priority=&#39;M&#39;, region=&#39;Sub-Saharan Africa&#39;, sales_channel=&#39;Online&#39;, ship_date=&#39;2/16/2013&#39;, total_cost=18978.630859375, total_profit=9349.01953125, total_revenue=28327.650390625, unit_cost=31.790000915527344, unit_price=47.45000076293945, units_sold=597)
+Row(order_id=&#39;467399013&#39;, country=&#39;Monaco&#39;, item_type=&#39;Beverages&#39;, order_date=&#39;5/29/2016&#39;, order_priority=&#39;M&#39;, region=&#39;Europe&#39;, sales_channel=&#39;Offline&#39;, ship_date=&#39;6/14/2016&#39;, total_cost=82940.109375, total_profit=40856.94140625, total_revenue=123797.046875, unit_cost=31.790000915527344, unit_price=47.45000076293945, units_sold=2609)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="36"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="FqrDdlij-Cpk" data-outputId="2af83dc2-a79b-4160-8e41-9c587394e8bb">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>drop_table(session,keyspace,<span class="st">&quot;silver_sales_data&quot;</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>session.execute(<span class="ss">f&quot;&quot;&quot;</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="ss">    CREATE TABLE IF NOT EXISTS silver_sales_data (</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="ss">        region TEXT,</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="ss">        country TEXT,</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="ss">        item_type TEXT,</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="ss">        sales_channel TEXT,</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="ss">        order_date DATE,</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="ss">        order_id TEXT PRIMARY KEY,  -- Ensure uniqueness</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="ss">        ship_date DATE,</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="ss">        units_sold INT,</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="ss">        unit_price FLOAT,</span></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a><span class="ss">        total_profit FLOAT</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="ss">    )</span></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a><span class="ss">&quot;&quot;&quot;</span>)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Silver table &#39;silver_sales_data&#39; created successfully!&quot;</span>)</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>silver_table <span class="op">=</span> <span class="st">&quot;silver_sales_data&quot;</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>bronze_table <span class="op">=</span> <span class="st">&quot;bronze_sales_data&quot;</span></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> parse_date(date_str):</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Parse date from &#39;mm/dd/yyyy&#39; format.&quot;&quot;&quot;</span></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> datetime.strptime(date_str, <span class="st">&quot;%m/</span><span class="sc">%d</span><span class="st">/%Y&quot;</span>).date()</span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Error parsing date &#39;</span><span class="sc">{</span>date_str<span class="sc">}</span><span class="ss">&#39;: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_valid_row(row):</span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Validate row for critical fields and business rules.&quot;&quot;&quot;</span></span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> row.order_id <span class="kw">or</span> <span class="kw">not</span> row.order_date <span class="kw">or</span> <span class="kw">not</span> row.total_profit:</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> row.units_sold <span class="kw">is</span> <span class="va">None</span> <span class="kw">or</span> row.total_profit <span class="kw">is</span> <span class="va">None</span> <span class="kw">or</span> row.units_sold <span class="op">&lt;</span> <span class="dv">0</span> <span class="kw">or</span> row.total_profit <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> parse_date(row.order_date) <span class="kw">is</span> <span class="va">None</span> <span class="kw">or</span> parse_date(row.ship_date) <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_text(text):</span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Normalize and clean text fields (e.g., capitalize).&quot;&quot;&quot;</span></span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> text.strip().title() <span class="cf">if</span> text <span class="cf">else</span> <span class="va">None</span></span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>rows <span class="op">=</span> session.execute(<span class="ss">f&quot;SELECT * FROM </span><span class="sc">{</span>bronze_table<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> row <span class="kw">in</span> rows:</span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> is_valid_row(row):</span>
+<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a>        order_date <span class="op">=</span> parse_date(row.order_date)</span>
+<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a>        ship_date <span class="op">=</span> parse_date(row.ship_date)</span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a>        region <span class="op">=</span> clean_text(row.region)</span>
+<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a>        country <span class="op">=</span> clean_text(row.country)</span>
+<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a>        item_type <span class="op">=</span> clean_text(row.item_type)</span>
+<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a>        sales_channel <span class="op">=</span> clean_text(row.sales_channel)</span>
+<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-58"><a href="#cb14-58" aria-hidden="true" tabindex="-1"></a>        session.execute(<span class="ss">f&quot;&quot;&quot;</span></span>
+<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a><span class="ss">            INSERT INTO </span><span class="sc">{</span>silver_table<span class="sc">}</span><span class="ss"> (</span></span>
+<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a><span class="ss">                region, country, item_type, sales_channel,</span></span>
+<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a><span class="ss">                order_date, order_id, ship_date,</span></span>
+<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a><span class="ss">                units_sold, unit_price, total_profit</span></span>
+<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a><span class="ss">            )</span></span>
+<span id="cb14-64"><a href="#cb14-64" aria-hidden="true" tabindex="-1"></a><span class="ss">            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)</span></span>
+<span id="cb14-65"><a href="#cb14-65" aria-hidden="true" tabindex="-1"></a><span class="ss">        &quot;&quot;&quot;</span>, (</span>
+<span id="cb14-66"><a href="#cb14-66" aria-hidden="true" tabindex="-1"></a>            region, country, item_type, sales_channel,</span>
+<span id="cb14-67"><a href="#cb14-67" aria-hidden="true" tabindex="-1"></a>            order_date, row.order_id, ship_date,</span>
+<span id="cb14-68"><a href="#cb14-68" aria-hidden="true" tabindex="-1"></a>            row.units_sold, row.unit_price, row.total_profit</span>
+<span id="cb14-69"><a href="#cb14-69" aria-hidden="true" tabindex="-1"></a>        ))</span>
+<span id="cb14-70"><a href="#cb14-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-71"><a href="#cb14-71" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Data transformed and loaded into Silver table successfully!&quot;</span>)</span>
+<span id="cb14-72"><a href="#cb14-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-73"><a href="#cb14-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-74"><a href="#cb14-74" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Table &#39;silver_sales_data&#39; already exists in keyspace &#39;medallion_architecture&#39;. Dropping it...
+Table &#39;silver_sales_data&#39; dropped successfully.
+Silver table &#39;silver_sales_data&#39; created successfully!
+Data transformed and loaded into Silver table successfully!
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="38"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="YA2VyahQ_UVQ" data-outputId="1dc13994-039a-47e4-b99c-ed0acdbe3241">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> session.execute(<span class="st">&quot;SELECT * FROM silver_sales_data LIMIT 10&quot;</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> data:</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Row(order_id=&#39;940980136&#39;, country=&#39;New Zealand&#39;, item_type=&#39;Beverages&#39;, order_date=Date(15624), region=&#39;Australia And Oceania&#39;, sales_channel=&#39;Online&#39;, ship_date=Date(15648), total_profit=90640.078125, unit_price=47.45000076293945, units_sold=5788)
+Row(order_id=&#39;363086831&#39;, country=&#39;Mali&#39;, item_type=&#39;Household&#39;, order_date=Date(14840), region=&#39;Sub-Saharan Africa&#39;, sales_channel=&#39;Offline&#39;, ship_date=Date(14859), total_profit=715456.4375, unit_price=668.27001953125, units_sold=4317)
+Row(order_id=&#39;176461303&#39;, country=&#39;Singapore&#39;, item_type=&#39;Snacks&#39;, order_date=Date(15733), region=&#39;Asia&#39;, sales_channel=&#39;Online&#39;, ship_date=Date(15743), total_profit=423254.625, unit_price=152.5800018310547, units_sold=7676)
+Row(order_id=&#39;438011872&#39;, country=&#39;Dominica&#39;, item_type=&#39;Beverages&#39;, order_date=Date(15503), region=&#39;Central America And The Caribbean&#39;, sales_channel=&#39;Online&#39;, ship_date=Date(15539), total_profit=98673.65625, unit_price=47.45000076293945, units_sold=6301)
+Row(order_id=&#39;135178029&#39;, country=&#39;United Kingdom&#39;, item_type=&#39;Cosmetics&#39;, order_date=Date(16556), region=&#39;Europe&#39;, sales_channel=&#39;Online&#39;, ship_date=Date(16571), total_profit=180477.0625, unit_price=437.20001220703125, units_sold=1038)
+Row(order_id=&#39;488121116&#39;, country=&#39;The Bahamas&#39;, item_type=&#39;Fruits&#39;, order_date=Date(14778), region=&#39;Central America And The Caribbean&#39;, sales_channel=&#39;Offline&#39;, ship_date=Date(14790), total_profit=11423.400390625, unit_price=9.329999923706055, units_sold=4740)
+Row(order_id=&#39;845056617&#39;, country=&#39;Netherlands&#39;, item_type=&#39;Fruits&#39;, order_date=Date(17124), region=&#39;Europe&#39;, sales_channel=&#39;Online&#39;, ship_date=Date(17135), total_profit=23827.669921875, unit_price=9.329999923706055, units_sold=9887)
+Row(order_id=&#39;667593514&#39;, country=&#39;Morocco&#39;, item_type=&#39;Clothes&#39;, order_date=Date(15962), region=&#39;Middle East And North Africa&#39;, sales_channel=&#39;Online&#39;, ship_date=Date(15997), total_profit=338631.84375, unit_price=109.27999877929688, units_sold=4611)
+Row(order_id=&#39;425793445&#39;, country=&#39;Seychelles&#39;, item_type=&#39;Beverages&#39;, order_date=Date(15723), region=&#39;Sub-Saharan Africa&#39;, sales_channel=&#39;Online&#39;, ship_date=Date(15752), total_profit=9349.01953125, unit_price=47.45000076293945, units_sold=597)
+Row(order_id=&#39;467399013&#39;, country=&#39;Monaco&#39;, item_type=&#39;Beverages&#39;, order_date=Date(16950), region=&#39;Europe&#39;, sales_channel=&#39;Offline&#39;, ship_date=Date(16966), total_profit=40856.94140625, unit_price=47.45000076293945, units_sold=2609)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="32"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="YSkapMOtFFlh" data-outputId="6afc03e2-7a8b-4a8c-e8fb-649d1367f5f4">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>create_regional_sales <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="st">CREATE TABLE IF NOT EXISTS regional_sales (</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="st">            region TEXT,</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="st">            country TEXT,</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="st">            total_units_sold INT,</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="st">            total_revenue FLOAT,</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="st">            PRIMARY KEY (region, country)</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="st">        )</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>create_channel_analysis <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="st">CREATE TABLE IF NOT EXISTS channel_analysis (</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="st">            sales_channel TEXT,</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="st">            total_units_sold INT,</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a><span class="st">            total_profit FLOAT,</span></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a><span class="st">            PRIMARY KEY (sales_channel)</span></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a><span class="st">        )</span></span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>create_profitability_insights <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a><span class="st">CREATE TABLE IF NOT EXISTS profitability_insights (</span></span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a><span class="st">            order_id TEXT PRIMARY KEY,</span></span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a><span class="st">            total_profit FLOAT</span></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a><span class="st">        )</span></span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>drop_table(session,keyspace,<span class="st">&quot;regional_sales&quot;</span>)</span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a>session.execute(create_regional_sales)</span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Created gold table: regional_sales&quot;</span>)</span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a>drop_table(session,keyspace,<span class="st">&quot;channel_analysis&quot;</span>)</span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>session.execute(create_channel_analysis)</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Created gold table: channel_analysis&quot;</span>)</span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a>drop_table(session,keyspace,<span class="st">&quot;profitability_insights&quot;</span>)</span>
+<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a>session.execute(create_profitability_insights)</span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Created gold table: profitability_insights&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Table &#39;regional_sales&#39; already exists in keyspace &#39;medallion_architecture&#39;. Dropping it...
+Table &#39;regional_sales&#39; dropped successfully.
+Created gold table: regional_sales
+Table &#39;channel_analysis&#39; already exists in keyspace &#39;medallion_architecture&#39;. Dropping it...
+Table &#39;channel_analysis&#39; dropped successfully.
+Created gold table: channel_analysis
+Table &#39;profitability_insights&#39; already exists in keyspace &#39;medallion_architecture&#39;. Dropping it...
+Table &#39;profitability_insights&#39; dropped successfully.
+Created gold table: profitability_insights
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="50"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="xRSGFtYSGA7e" data-outputId="32a132f0-4ad7-42d4-cde7-8b7035d22520">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>rows <span class="op">=</span> session.execute(<span class="st">&quot;SELECT region, country, units_sold, unit_price FROM silver_sales_data&quot;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>regional_sales <span class="op">=</span> {}</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> row <span class="kw">in</span> rows:</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>    key <span class="op">=</span> (row.region, row.country)</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> key <span class="kw">not</span> <span class="kw">in</span> regional_sales:</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>        regional_sales[key] <span class="op">=</span> {<span class="st">&quot;total_units_sold&quot;</span>: <span class="dv">0</span>, <span class="st">&quot;total_revenue&quot;</span>: <span class="fl">0.0</span>}</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>    regional_sales[key][<span class="st">&quot;total_units_sold&quot;</span>] <span class="op">+=</span> row.units_sold</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>    regional_sales[key][<span class="st">&quot;total_revenue&quot;</span>] <span class="op">+=</span> row.units_sold <span class="op">*</span> row.unit_price</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (region, country), metrics <span class="kw">in</span> regional_sales.items():</span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>    session.execute(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a><span class="st">        INSERT INTO regional_sales (region, country, total_units_sold, total_revenue)</span></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a><span class="st">        VALUES (</span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">)</span></span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a><span class="st">    &quot;&quot;&quot;</span>, (region, country, metrics[<span class="st">&quot;total_units_sold&quot;</span>], metrics[<span class="st">&quot;total_revenue&quot;</span>]))</span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Data loaded into regional_sales table successfully!&quot;</span>)</span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> session.execute(<span class="st">&quot;SELECT * FROM regional_sales LIMIT 10&quot;</span>)</span>
+<span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> data:</span>
+<span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Data loaded into regional_sales table successfully!
+Row(region=&#39;Europe&#39;, country=&#39;Albania&#39;, total_revenue=2140268.5, total_units_sold=9433)
+Row(region=&#39;Europe&#39;, country=&#39;Belgium&#39;, total_revenue=231050.71875, total_units_sold=2827)
+Row(region=&#39;Europe&#39;, country=&#39;Czech Republic&#39;, total_revenue=4003440.5, total_units_sold=9157)
+Row(region=&#39;Europe&#39;, country=&#39;Estonia&#39;, total_revenue=6666661.5, total_units_sold=9976)
+Row(region=&#39;Europe&#39;, country=&#39;Finland&#39;, total_revenue=5552598.0, total_units_sold=8846)
+Row(region=&#39;Europe&#39;, country=&#39;France&#39;, total_revenue=2517397.75, total_units_sold=5758)
+Row(region=&#39;Europe&#39;, country=&#39;Greece&#39;, total_revenue=1784241.75, total_units_sold=8674)
+Row(region=&#39;Europe&#39;, country=&#39;Iceland&#39;, total_revenue=628499.375, total_units_sold=2462)
+Row(region=&#39;Europe&#39;, country=&#39;Italy&#39;, total_revenue=3996349.0, total_units_sold=13119)
+Row(region=&#39;Europe&#39;, country=&#39;Moldova&#39;, total_revenue=34856.87890625, total_units_sold=3736)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="47"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="zrHLO5ojSDIf" data-outputId="0290c913-d208-4dda-a481-381c1e8a948e">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">&quot;SELECT order_id, sales_channel, units_sold, total_profit FROM silver_sales_data&quot;</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>rows <span class="op">=</span> session.execute(query)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(rows, columns<span class="op">=</span>[<span class="st">&#39;order_id&#39;</span>, <span class="st">&#39;sales_channel&#39;</span>, <span class="st">&#39;units_sold&#39;</span>, <span class="st">&#39;total_profit&#39;</span>])</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>channel_analysis_df <span class="op">=</span> df.groupby(<span class="st">&#39;sales_channel&#39;</span>).agg(</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    total_units_sold<span class="op">=</span>(<span class="st">&#39;units_sold&#39;</span>, <span class="st">&#39;sum&#39;</span>),</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>    total_profit<span class="op">=</span>(<span class="st">&#39;total_profit&#39;</span>, <span class="st">&#39;sum&#39;</span>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>).reset_index()</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, row <span class="kw">in</span> channel_analysis_df.iterrows():</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>    session.execute(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a><span class="st">        INSERT INTO channel_analysis (sales_channel, total_units_sold, total_profit)</span></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="st">        VALUES (</span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">)</span></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="st">    &quot;&quot;&quot;</span>, (row[<span class="st">&#39;sales_channel&#39;</span>], row[<span class="st">&#39;total_units_sold&#39;</span>], row[<span class="st">&#39;total_profit&#39;</span>]))</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Data loaded into channel_analysis table successfully!&quot;</span>)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> session.execute(<span class="st">&quot;SELECT * FROM channel_analysis LIMIT 10&quot;</span>)</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> data:</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Data loaded into channel_analysis table successfully!
+Row(sales_channel=&#39;Online&#39;, total_profit=24963806.0, total_units_sold=308320)
+Row(sales_channel=&#39;Offline&#39;, total_profit=16363386.0, total_units_sold=186490)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="49"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="8zs9xqrASbPW" data-outputId="5a77e4d0-9861-4daa-981a-35e30f05d0b1">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">&quot;SELECT order_id, sales_channel, units_sold, total_profit FROM silver_sales_data&quot;</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>rows <span class="op">=</span> session.execute(query)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(rows, columns<span class="op">=</span>[<span class="st">&#39;order_id&#39;</span>, <span class="st">&#39;sales_channel&#39;</span>, <span class="st">&#39;units_sold&#39;</span>, <span class="st">&#39;total_profit&#39;</span>])</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>profitability_insights_df <span class="op">=</span> df.sort_values(by<span class="op">=</span><span class="st">&#39;total_profit&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">100</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, row <span class="kw">in</span> profitability_insights_df.iterrows():</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    session.execute(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a><span class="st">        INSERT INTO profitability_insights (order_id, total_profit)</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a><span class="st">        VALUES (</span><span class="sc">%s</span><span class="st">, </span><span class="sc">%s</span><span class="st">)</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="st">    &quot;&quot;&quot;</span>, (row[<span class="st">&#39;order_id&#39;</span>], row[<span class="st">&#39;total_profit&#39;</span>]))</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Data loaded into profitability_insights table successfully!&quot;</span>)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> session.execute(<span class="st">&quot;SELECT * FROM profitability_insights LIMIT 10&quot;</span>)</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> data:</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Data loaded into profitability_insights table successfully!
+Row(order_id=&#39;940980136&#39;, total_profit=90640.078125)
+Row(order_id=&#39;363086831&#39;, total_profit=715456.4375)
+Row(order_id=&#39;176461303&#39;, total_profit=423254.625)
+Row(order_id=&#39;438011872&#39;, total_profit=98673.65625)
+Row(order_id=&#39;135178029&#39;, total_profit=180477.0625)
+Row(order_id=&#39;488121116&#39;, total_profit=11423.400390625)
+Row(order_id=&#39;845056617&#39;, total_profit=23827.669921875)
+Row(order_id=&#39;667593514&#39;, total_profit=338631.84375)
+Row(order_id=&#39;425793445&#39;, total_profit=9349.01953125)
+Row(order_id=&#39;467399013&#39;, total_profit=40856.94140625)
+</code></pre>
+</div>
+</div>
+</body>
+</html>
